@@ -1,0 +1,32 @@
+<head>
+  <meta charset="utf-8">
+  <title>fondo salsero</title>
+  <font></font>
+</head>
+
+<style>
+  @keyframes radiate {
+    0% {
+        background-image: (#ff6666 20%, #ffb380 40%, #ff471a 60%, #ff7f50 80%, #ff3333);
+    }
+
+      50% {
+        background-image: (#ff6666 40%, #ffb380 60%, #ff471a 80%, #ff7f50 20%, #ff3333);
+      }
+      
+      100% {
+        background-image: (#ff6666 60%, #ffb380 80%, #ff471a 40%, #ff7f50 20%, #ff3333);
+      }
+  } 
+  
+  body {
+   background-image: radial-gradient(circle, #ff6666 20%, #ffb380 40%, #ff471a 60%, #ff7f50 80%, #ff3333);
+   background-size: 50%, 100%;
+   animation: radiate 5s infinite;
+  }
+
+
+
+</style>
+
+<div class="background1"></div>
